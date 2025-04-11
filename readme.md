@@ -1,6 +1,5 @@
-# Enchanted Proxy for OpenRouter
-This repository is specifically made for use with the [Enchanted project](https://github.com/gluonfield/enchanted/tree/main).
-The original author of this proxy is [marknefedov](https://github.com/marknefedov/ollama-openrouter-proxy).
+# Archive notice
+This reposity was superseeded by [enchanted-ollama-openrouter-proxy](https://github.com/xsharov/enchanted-ollama-openrouter-proxy)
 
 ## Description
 This repository provides a proxy server that emulates [Ollama's REST API](https://github.com/ollama/ollama) but forwards requests to [OpenRouter](https://openrouter.ai/). It uses the [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) library under the hood, with minimal code changes to keep the Ollama API calls the same. This allows you to use Ollama-compatible tooling and clients, but run your requests on OpenRouter-managed models.
